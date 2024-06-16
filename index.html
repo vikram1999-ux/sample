@@ -20,6 +20,10 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+    />
     <link rel="stylesheet" href="assets/css/owl.carousel.min.css" />
     <link rel="stylesheet" href="assets/css/owl.theme.default.min.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
@@ -127,38 +131,41 @@
               class="img-fluid"
             />
           </div>
-          <div class="container">
-            <div
-              class="quote-img animate__animated animate__pulse animate__delay-5s"
-            >
-              <img
-                src="assets/images/banner-slide1.png"
-                class="img-fluid"
-                alt=""
-              />
-            </div>
-            <div class="custom_caption">
+          <div class="quote-img">
+            <img
+              src="assets/images/banner-slide1.png"
+              class="img-fluid"
+              alt=""
+            />
+          </div>
+          <div class="custom_caption_animation">
+            <div class="container">
               <h1 class="text-white mb-4 fw-normal text-uppercase text-center">
                 <span
-                  class="animate__animated animate__fadeInLeft d-block animate__delay-2s"
+                  class="animate__animated animate__fadeInLeft d-block show_first"
                 >
-                  earn</span
-                >
+                  earn
+                </span>
                 <span
-                  class="d-block animate__animated animate__pulse animate__delay-5s"
-                  >+</span
-                ><span
-                  class="d-block animate__animated animate__fadeInRight animate__delay-4s"
-                  >manage</span
+                  class="d-block animate__animated animate__pulse show_second"
                 >
+                  +
+                </span>
                 <span
-                  class="d-block animate__animated animate__pulse animate__delay-5s"
-                  >+</span
+                  class="d-block animate__animated animate__fadeInRight show_third"
                 >
+                  manage
+                </span>
                 <span
-                  class="d-block animate__animated animate__fadeInUp animate__delay-5s"
-                  >save</span
+                  class="d-block animate__animated animate__pulse show_fourth"
                 >
+                  +
+                </span>
+                <span
+                  class="d-block animate__animated animate__fadeInUp show_fifth"
+                >
+                  save
+                </span>
               </h1>
             </div>
           </div>
@@ -189,14 +196,23 @@
           <div class="container">
             <div class="custom_caption">
               <h1 class="text-white mb-4 fw-normal text-uppercase">
-                prepare for the <span class="fw-bold">future</span> speak to an
-                adviser
+                <span class="animate__animated animate__fadeInLeft"
+                  >prepare for the</span
+                >
+                <span class="fw-bold animate__animated animate__fadeInRight"
+                  >future</span
+                >
+                <span class="animate__animated animate__fadeInUp"
+                  >speak to an adviser</span
+                >
               </h1>
-              <p class="text-white">
+              <p class="text-white animate__animated animate__fadeInUp">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry.
               </p>
-              <a href="#" class="btn btn-light d-inline-block mt-4"
+              <a
+                href="#"
+                class="btn btn-light d-inline-block mt-4 animate__animated animate__fadeInUp"
                 >Click Here</a
               >
             </div>
